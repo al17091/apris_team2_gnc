@@ -48,7 +48,7 @@ void Control_Waypoint_R2_Link_is_followed_by( Control_Waypoint *, Control_Waypoi
 void Control_Waypoint_R3_Link_is_flying_to( Control_Controller *, Control_Waypoint * );
 /* Note:  Controller<-R3->Waypoint unrelate accessor not needed */
 
-#define Control_Waypoint_MAX_EXTENT_SIZE 20
+#define Control_Waypoint_MAX_EXTENT_SIZE 30
 extern Escher_Extent_t pG_Control_Waypoint_extent;
 
 #ifdef	__cplusplus
