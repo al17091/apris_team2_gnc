@@ -71,29 +71,48 @@ wp5.y = 5;
 wp5.z = 1;
 relate wp4 to wp5 across R2.''follows'';
 
-create object instance wp4 of Waypoint;
-wp4.x = 4;
-wp4.y = 4;
-wp4.z = 1;
-relate wp3 to wp4 across R2.''follows'';
+create object instance wp6 of Waypoint;
+wp6.x = 6;
+wp6.y = 6;
+wp6.z = 1;
+relate wp5 to wp6 across R2.''follows'';
 
-create object instance wp5 of Waypoint;
-wp5.x = 5;
-wp5.y = 5;
-wp5.z = 1;
-relate wp4 to wp5 across R2.''follows'';
+create object instance wp7 of Waypoint;
+wp7.x = 7;
+wp7.y = 7;
+wp7.z = 1;
+relate wp6 to wp7 across R2.''follows'';
 
-create object instance origin of Waypoint;
-origin.x = 0;
-origin.y = 0;
-origin.z = 1;
-relate wp3 to origin across R2.''follows'';
+create object instance wp8 of Waypoint;
+wp8.x = 8;
+wp8.y = 8;
+wp8.z = 1;
+relate wp7 to wp8 across R2.''follows'';
+
+create object instance wp9 of Waypoint;
+wp9.x = 9;
+wp9.y = 9;
+wp9.z = 1;
+relate wp8 to wp9 across R2.''follows'';
+
+create object instance wp10 of Waypoint;
+wp10.x = 10;
+wp10.y = 10;
+wp10.z = 1;
+relate wp9 to wp10 across R2.''follows'';
+
+create object instance wp0 of Waypoint;
+wp0.x = 0;
+wp0.y = 0;
+wp0.z = 1;
+relate wp10 to wp0 across R2.''follows'';
 
 create object instance dumy of Waypoint;
 dumy.x = 0;
 dumy.y = 0;
 dumy.z = 1;
-relate origin to dumy across R2.''follows'';',
+relate wp0 to dumy across R2.''follows'';
+',
 	"ba5eda7a-def5-0000-0000-000000000000",
 	1,
 	'',
