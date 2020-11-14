@@ -1,4 +1,4 @@
-# gnc: An example project of BridgePoint for controlling quad copter for APRIS Robot Challange
+# gnc: Team2 project of BridgePoint for controlling quad copter for APRIS Robot Challange
 
 ## How to run
 
@@ -10,7 +10,8 @@
 2. Download this project in catkin_ws/src in the conatiner
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/hisazumi/gnc.git
+git clone https://github.com/al17091/apris_team3_gnc.git
+mv apris_team4_gnc gnc
 ```
 
 3. Import to your bridgepoint workspace
