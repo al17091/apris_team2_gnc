@@ -545,9 +545,16 @@ void gnc_background (void) {
 			is_waypoint_set = false;
 		}
 	}
-	for(int i = 0; i < 10; i++){
-		duration.sleep();
-	}
+	duration.sleep();
+	duration.sleep();
+	duration.sleep();
+	duration.sleep();
+	duration.sleep();
+	duration.sleep();
+	duration.sleep();
+	duration.sleep();
+	duration.sleep();
+	duration.sleep();
 }
 
 void gnc_shutdown(void) {
