@@ -43,32 +43,32 @@ INSERT INTO S_SYNC
 create object instance wp1 of Waypoint;
 wp1.x = 0;
 wp1.y = 0;
-wp1.z = 15;
+wp1.z = 11;
 relate ctrl to wp1 across R1.''begin with'';
 relate ctrl to wp1 across R3.''is flying to'';
 
 create object instance wp2 of Waypoint;
 wp2.x = 10;
 wp2.y = 0;
-wp2.z = 15;
+wp2.z = 11;
 relate wp1 to wp2 across R2.''follows'';
 
 create object instance wp3 of Waypoint;
 wp3.x = 15;
 wp3.y = -12.5;
-wp3.z = 15;
+wp3.z = 11;
 relate wp2 to wp3 across R2.''follows'';
 
 create object instance wp4 of Waypoint;
 wp4.x = 10;
 wp4.y = -12.5;
-wp4.z = 15;
+wp4.z = 11;
 relate wp3 to wp4 across R2.''follows'';
 
 create object instance wp5 of Waypoint;
 wp5.x = 5;
 wp5.y = -12.5;
-wp5.z = 15;
+wp5.z = 11;
 relate wp4 to wp5 across R2.''follows'';
 
 create object instance wp6 of Waypoint;
@@ -165,8 +165,7 @@ create object instance dumy of Waypoint;
 dumy.x = 0;
 dumy.y = 0;
 dumy.z = 10;
-relate wp20 to dumy across R2.''follows'';
-',
+relate wp20 to dumy across R2.''follows'';',
 	"ba5eda7a-def5-0000-0000-000000000000",
 	1,
 	'',

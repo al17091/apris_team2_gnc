@@ -150,6 +150,7 @@ void gnc_set_heading(float heading)
   waypoint_g.pose.orientation.x = qx;
   waypoint_g.pose.orientation.y = qy;
   waypoint_g.pose.orientation.z = qz;
+  sleep(5);
 }
 // set position to fly to in the local frame
 /**
